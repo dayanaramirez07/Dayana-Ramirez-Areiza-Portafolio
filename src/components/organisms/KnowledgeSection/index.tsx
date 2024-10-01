@@ -1,17 +1,17 @@
-import { TextSecundary, TitleSecondary } from "@/components/atoms/Text";
+import { TitleSecondary } from "@/components/atoms/Text";
 import { KnowledgeCard } from "@/components/molecules/Card";
 import { knowledge } from "@/utils/const";
+import { Icon } from "@iconify/react";
 import React from "react";
 
 const Knowledge = () => {
   return (
     <div className="py-10">
       <div className="flex flex-col items-center mx-auto">
-        <TitleSecondary title="Mi conocimiento"></TitleSecondary>
-        <div className="w-96 pt-4 pb-10">
-          <TextSecundary text="Soy una apasionada del desarrollo creativo y tecnológico, con un enfoque en la creación de soluciones innovadoras. Me motiva la combinación de diseño y tecnología para construir experiencias impactantes y funcionales, siempre buscando mejorar y aprender en cada proyecto." />
+        <div className="flex items-center pb-10 space-x-1">
+          <TitleSecondary title="Mi conocimiento"></TitleSecondary>
+          <Icon icon="lets-icons:lamp" className="text-primary h-10 w-10" />
         </div>
-
         <div className="flex items-center justify-center">
           <ul className="flex flex-row">
             {knowledge.map((el) => (

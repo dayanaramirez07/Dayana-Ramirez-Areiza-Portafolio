@@ -11,3 +11,7 @@ body {
   font-optical-sizing: auto;
   background-color: #f4f4f4;
 }
+
+.overflow-y-auto {
+  scrollbar-width: thin;
+}

@@ -6,15 +6,15 @@ import SideBar from "@/components/organisms/SideBar";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-row space-x-5 p-5">
-      <div className="w-1/4">
+    <div className="w-full h-screen flex flex-row space-x-5 p-5 overflow-hidden">
+      <div className="w-1/4 h-full overflow-y-auto">
         <SideBar />
       </div>
-      <div className="w-3/4">
+      <div className="w-3/4 h-full overflow-y-auto">
         <Header />
-        <Knowledge />
-        <Education />
         <Experience />
+        <Education />
+        <Knowledge />
       </div>
     </div>
   );
