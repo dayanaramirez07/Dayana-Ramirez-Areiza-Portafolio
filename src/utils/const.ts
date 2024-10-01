@@ -35,4 +35,13 @@ const education = [
   },
 ];
 
-export { knowledge, education };
+const experience = [
+  {
+    title1: "SIP Software S.A.S",
+    title2: "Desarrolladora Front-end Junior",
+    text: "Durante mi experiencia como Desarrolladora Frontend, me he destacado por mi compromiso con la creación de experiencias web excepcionales y altamente funcionales. He trabajado en 4 proyectos en el último año, enfocándome en la innovación, la estética visual y la usabilidad para garantizar la entrega de productos que no solo cumplan con los estándares técnicos, sino que también satisfagan las necesidades y expectativas de los usuarios.",
+    date: "Julio 2023 - Actualidad",
+  },
+];
+
+export { knowledge, education, experience };

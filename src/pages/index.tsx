@@ -1,4 +1,5 @@
 import Education from "@/components/organisms/EducationSection";
+import Experience from "@/components/organisms/ExperienceSection";
 import Header from "@/components/organisms/Header";
 import Knowledge from "@/components/organisms/KnowledgeSection";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Knowledge />
       <Education />
+      <Experience />
     </div>
   );
 }

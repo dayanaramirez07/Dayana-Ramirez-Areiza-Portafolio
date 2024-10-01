@@ -50,4 +50,31 @@ const EducationCard = ({
   );
 };
 
-export { KnowledgeCard, EducationCard };
+const ExperienceCard = ({
+  title1,
+  title2,
+  text,
+  date,
+}: {
+  title1: string;
+  title2: string;
+  text: string;
+  date: string;
+}) => {
+  return (
+    <div className="flex flex-row">
+      <div className="flex flex-col gap-5 w-2/5">
+        <TitleTertiary title={title1} />
+        <div className="color-primary py-1 px-3 max-w-max">
+          <TextTertiary text={date} />
+        </div>
+      </div>
+      <div className="flex flex-col gap-5 w-3/5">
+        <TitleTertiary title={title2} />
+        <TextPrincipal text={text} />
+      </div>
+    </div>
+  );
+};
+
+export { KnowledgeCard, EducationCard, ExperienceCard };
