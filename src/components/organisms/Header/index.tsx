@@ -5,7 +5,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="flex items-center h-[470px] w-[70%] space-x-4 bg-white px-12">
+    <div className="flex items-center h-[470px] space-x-4 bg-white px-12">
       <div className="flex flex-col gap-8 w-3/4">
         <div className="flex flex-col gap-2">
           <TitlePrincipal title="Soy Dayana Ramírez" />

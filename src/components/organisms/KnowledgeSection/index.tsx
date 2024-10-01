@@ -5,7 +5,7 @@ import React from "react";
 
 const Knowledge = () => {
   return (
-    <div className="py-10 w-[70%]">
+    <div className="py-10">
       <div className="flex flex-col items-center mx-auto">
         <TitleSecondary title="Mi conocimiento"></TitleSecondary>
         <div className="w-96 pt-4 pb-10">
