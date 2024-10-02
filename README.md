@@ -1,40 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de Dayana Ramírez Areiza
 
-## Getting Started
+Este es el repositorio del portafolio personal de Dayana Ramírez Areiza, desarrollado para presentar mis habilidades, proyectos y experiencia profesional en el área de desarrollo Front-end.
 
-First, run the development server:
+## Descripción
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este portafolio incluye:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Información sobre mi experiencia en el desarrollo de aplicaciones web, sistemas ERP y dashboards.
+- Sección de habilidades con barras de progreso dinámicas.
+- Proyectos destacados en los que he trabajado.
+- Sección de contacto con un diálogo interactivo.
+- Íconos de redes sociales en la barra lateral para facilitar la navegación.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Tecnologías Utilizadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Next.js**: Framework de React para la creación de aplicaciones web.
+- **TypeScript**: Lenguaje de programación tipado que mejora la robustez del código.
+- **Tailwind CSS**: Framework de utilidades para diseñar la interfaz de usuario de manera eficiente.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Enlace de Despliegue
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+El portafolio está desplegado en Vercel y se puede visitar en el siguiente enlace:  
+[Portafolio de Dayana Ramírez Areiza](https://dayana-ramirez-areiza-portafolio.vercel.app/)
 
-## Learn More
+## Instalación y Uso
 
-To learn more about Next.js, take a look at the following resources:
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/dayanaramirez07/Dayana-Ramirez-Areiza-Portafolio.git
+2. Instala las dependencias:
+   ```bash
+   npm install
+3. Ejecuta la aplicación en modo desarrollo:
+   ```bash
+   npm run dev
+4. Abre http://localhost:3000 en tu navegador para ver la aplicación.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estructura del Proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `/components`: Componentes reutilizables para la interfaz de usuario.
+- `/pages`: Páginas del portafolio.
+- `/public`: Archivos estáticos como imágenes y logos.
+- `/styles`: Estilos globales y específicos de componentes.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+¡Gracias por visitar mi portafolio!
