@@ -1,3 +1,11 @@
+// ----------------------------------------------------------------------------------
+// Este componente muestra un portafolio de proyectos utilizando un carrusel interactivo (Swiper).
+// Los proyectos se presentan como tarjetas que incluyen una imagen, un título y una descripción breve.
+// Cada imagen es clicable y abre un modal para mostrar la imagen en tamaño ampliado. El modal se cierra
+// al hacer clic en el botón de cerrar o fuera de la imagen. Los proyectos y sus datos provienen de la
+// constante 'projects', que contiene la información necesaria para cada uno de ellos.
+// ----------------------------------------------------------------------------------
+
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

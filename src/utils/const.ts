@@ -1,3 +1,9 @@
+// ----------------------------------------------------------------------------------
+// Archivo que contiene la configuración de los datos estáticos para las secciones de conocimiento,
+// educación, experiencia y proyectos del portafolio.
+// Estos datos se utilizan para renderizar las tarjetas correspondientes en cada sección del sitio web.
+// ----------------------------------------------------------------------------------
+
 const knowledge = [
   {
     icon: "ph:devices-duotone",

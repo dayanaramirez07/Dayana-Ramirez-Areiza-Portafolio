@@ -1,3 +1,15 @@
+// ----------------------------------------------------------------------------------
+// El componente Education muestra una sección de educación organizada con tarjetas de información:
+//
+// - La sección incluye un título junto con un ícono, utilizando el componente TitleSecondary para el título
+//   y el ícono de "@iconify/react".
+// - Muestra una lista de elementos, donde cada uno es una tarjeta educativa (EducationCard)
+//   que contiene información sobre títulos, instituciones, descripciones y fechas.
+// - El componente Education utiliza un mapeo sobre la constante 'education', recorriendo cada
+//   entrada para generar una EducationCard. Además, se inserta un separador <hr> entre cada
+//   tarjeta, excepto la última.
+// ----------------------------------------------------------------------------------
+
 import { TitleSecondary } from "@/components/atoms/Text";
 import { EducationCard } from "@/components/molecules/Card";
 import { education } from "@/utils/const";

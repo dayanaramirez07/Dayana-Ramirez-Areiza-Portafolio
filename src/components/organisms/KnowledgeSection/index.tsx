@@ -1,3 +1,11 @@
+// ----------------------------------------------------------------------------------
+// Componente Knowledge:
+//
+// - Contiene un título con un ícono.
+// - Se genera una lista horizontal de tarjetas (KnowledgeCard) usando el array knowledge del archivo de utilidades.
+// - Cada tarjeta presenta un ícono, un título y una descripción relacionada con un área de conocimiento.
+// ----------------------------------------------------------------------------------
+
 import { TitleSecondary } from "@/components/atoms/Text";
 import { KnowledgeCard } from "@/components/molecules/Card";
 import { knowledge } from "@/utils/const";

@@ -1,3 +1,14 @@
+// ----------------------------------------------------------------------------------
+// El componente Header presenta una sección introductoria:
+//
+// - Contiene un título principal utilizando el componente TitlePrincipal.
+// - Después, se muestra una segunda línea con tres títulos, para establecer el segundo
+//   con un color distinto.
+// - Un párrafo resume la experiencia, utilizando el componente TextPrincipal y
+//   mencionando varias tecnologías.
+// - Finalmente, el componente Button se incluye para agregar un botón interactivo.
+// ----------------------------------------------------------------------------------
+
 import Button from "@/components/atoms/Button";
 import { TextPrincipal, TitlePrincipal, TitlePrincipalColor } from "@/components/atoms/Text";
 import React from "react";

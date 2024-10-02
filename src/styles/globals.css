@@ -1,3 +1,9 @@
+/* ---------------------------------------------------------------------------------- 
+   Archivo CSS que configura estilos personalizados para la aplicación utilizando Tailwind CSS. 
+   Incluye estilos para la tipografía, colores, scrollbar, y personalizaciones específicas 
+   para los componentes de Swiper. 
+---------------------------------------------------------------------------------- */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

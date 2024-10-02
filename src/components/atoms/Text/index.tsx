@@ -1,3 +1,18 @@
+// ----------------------------------------------------------------------------------
+// Este archivo define varios componentes de texto y títulos estilizados utilizando clases
+// de Tailwind. Los títulos varían en tamaño, alineación y color, mientras que los textos
+// tienen diferentes estilos y alineaciones para adaptarse a diversas secciones de la UI.
+//
+// - TitlePrincipal: Título principal, grande y en negro.
+// - TitlePrincipalColor: Igual que TitlePrincipal, pero con un color personalizado.
+// - TitleSecondary: Título secundario centrado y de tamaño mediano.
+// - TitleTertiary: Título terciario más pequeño alineado a la izquierda.
+// - TitleTertiaryCenter: Título terciario centrado.
+// - TextPrincipal: Texto de tamaño base alineado a la izquierda.
+// - TextSecundary: Texto de tamaño base centrado.
+// - TextTertiary: Texto pequeño alineado a la izquierda y en blanco.
+// ----------------------------------------------------------------------------------
+
 import React from "react";
 
 const TitlePrincipal = ({ title }: { title: string }) => {

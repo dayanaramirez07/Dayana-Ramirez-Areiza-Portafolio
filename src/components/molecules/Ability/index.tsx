@@ -1,3 +1,14 @@
+// ----------------------------------------------------------------------------------
+// Este archivo define dos secciones para mostrar habilidades mediante barras de progreso.
+//
+// - Language: Muestra el nivel de conocimiento en diferentes idiomas (Español, Inglés, Francés)
+//   utilizando el componente ProgressBar.
+//
+// - Programming: Muestra las habilidades en lenguajes de programación y herramientas
+//   (como Angular, React, HTML, etc.), también utilizando el componente ProgressBar para
+//   reflejar el nivel de dominio de cada una.
+// ----------------------------------------------------------------------------------
+
 import ProgressBar from "@/components/atoms/ProgressBar";
 import { TitleTertiary } from "@/components/atoms/Text";
 import React from "react";

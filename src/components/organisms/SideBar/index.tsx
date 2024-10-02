@@ -1,3 +1,10 @@
+// ----------------------------------------------------------------------------------
+// Este componente representa la barra lateral (SideBar) que incluye el perfil, los detalles de contacto,
+// habilidades en idiomas (Language) y habilidades de programación (Programming).
+// El componente 'Profile' se mantiene siempre visible gracias a la propiedad 'sticky',
+// lo que significa que permanecerá fijo en la parte superior cuando el usuario se desplace.
+// ----------------------------------------------------------------------------------
+
 import { Language, Programming } from "@/components/molecules/Ability";
 import Contact from "@/components/molecules/Contact";
 import Profile from "@/components/molecules/Profile";

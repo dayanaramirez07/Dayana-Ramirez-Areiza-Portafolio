@@ -1,3 +1,17 @@
+// ----------------------------------------------------------------------------------
+// Este archivo define tres componentes de tarjetas: KnowledgeCard, EducationCard y ExperienceCard.
+//
+// - KnowledgeCard: Muestra una tarjeta con un ícono, un título centrado y un texto descriptivo.
+//   Se utiliza para representar conocimientos o habilidades.
+//
+// - EducationCard: Muestra información educativa en dos columnas. La primera columna incluye
+//   un título, texto y la fecha correspondiente. La segunda columna contiene un título adicional
+//   y un texto descriptivo sobre la formación o estudios.
+//
+// - ExperienceCard: Similar a EducationCard, pero diseñado para mostrar la experiencia laboral.
+//   Incluye un título, fecha, y detalles sobre la experiencia en dos columnas.
+// ----------------------------------------------------------------------------------
+
 import React from "react";
 import { Icon } from "@iconify/react";
 import {

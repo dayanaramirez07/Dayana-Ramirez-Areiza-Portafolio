@@ -1,3 +1,7 @@
+// ----------------------------------------------------------------------------------
+// El componente Footer muestra un pie de página sencillo.
+// ----------------------------------------------------------------------------------
+
 import { TextSecundary } from "@/components/atoms/Text";
 import React from "react";
 

@@ -1,3 +1,15 @@
+// ----------------------------------------------------------------------------------
+// El componente Experience muestra una sección de experiencia laboral, organizada en forma de tarjetas:
+//
+// - La sección incluye un título junto con un ícono, utilizando el componente TitleSecondary
+//   para el título y el ícono de "@iconify/react".
+// - Muestra una lista de tarjetas de experiencia laboral (ExperienceCard), donde cada tarjeta
+//   contiene información sobre cargos, empresas, descripciones de responsabilidades o logros, y fechas.
+// - El componente Experience recorre la constante 'experience' con un mapeo para generar
+//   las ExperienceCard correspondientes. Además, se inserta un separador <hr> entre cada
+//   tarjeta, excepto la última.
+// ----------------------------------------------------------------------------------
+
 import { TitleSecondary } from "@/components/atoms/Text";
 import { ExperienceCard } from "@/components/molecules/Card";
 import { experience } from "@/utils/const";

@@ -1,3 +1,9 @@
+// ----------------------------------------------------------------------------------
+// Este componente es un botón que se usa en el Header. Al hacer clic, abre un diálogo
+// que invita a los usuarios a contactarme. El diálogo incluye opciones para enviar un
+// correo o visitar mis redes sociales.
+// ----------------------------------------------------------------------------------
+
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
 import CustomIcon from "@/components/atoms/Icon";
@@ -32,10 +38,7 @@ const Button = () => {
                 href="https://www.linkedin.com/in/dayana-ram%C3%ADrez-areiza-4525b7317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               />
             </div>
-            <button
-              onClick={toggleDialog}
-              className="py-2 px-4 bg-primary text-white rounded-md"
-            >
+            <button onClick={toggleDialog} className="py-2 px-4 bg-primary text-white rounded-md">
               Cerrar
             </button>
           </div>

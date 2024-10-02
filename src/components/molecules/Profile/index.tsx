@@ -1,3 +1,11 @@
+// ----------------------------------------------------------------------------------
+// El componente Profile muestra una tarjeta de perfil centrada con la siguiente información:
+//
+// - Una imagen circular de perfil, que se carga mediante el componente Image de Next.js.
+// - Un título que muestra el nombre y un texto que indica el rol.
+// - Dos íconos que actúan como enlaces a los perfiles de GitHub y LinkedIn.
+// ----------------------------------------------------------------------------------
+
 import { TextPrincipal, TitleTertiary } from "@/components/atoms/Text";
 import Image from "next/image";
 import React from "react";

@@ -1,3 +1,9 @@
+// ----------------------------------------------------------------------------------
+// Este componente es una barra de progreso que recibe un texto descriptivo y un
+// valor de progreso (en porcentaje). Muestra el texto y el porcentaje actual al lado
+// de la barra, la cual se llena en base al porcentaje indicado.
+// ----------------------------------------------------------------------------------
+
 import React from "react";
 import { TextPrincipal } from "../Text";
 

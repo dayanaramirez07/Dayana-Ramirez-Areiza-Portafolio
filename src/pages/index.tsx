@@ -1,3 +1,11 @@
+// ----------------------------------------------------------------------------------
+// Este es el componente principal de la página "Home" que organiza el layout general de la aplicación.
+// La estructura divide la pantalla en dos secciones principales:
+// - Una barra lateral (SideBar).
+// - El contenido principal (Header, Experience, Portfolio, Education, Knowledge, Footer).
+// Ambas secciones son scrollables de manera independiente (overflow-y-auto), permitiendo una navegación fluida.
+// ----------------------------------------------------------------------------------
+
 import Education from "@/components/organisms/EducationSection";
 import Experience from "@/components/organisms/ExperienceSection";
 import Footer from "@/components/organisms/Footer";
