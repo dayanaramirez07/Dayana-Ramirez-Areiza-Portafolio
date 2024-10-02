@@ -29,6 +29,7 @@ const Programming = () => {
         <ProgressBar text="Bootstrap" progress="90" />
         <ProgressBar text="Bulma" progress="70" />
         <ProgressBar text="Tailwind" progress="70" />
+        <ProgressBar text="Postman" progress="80" />
         <ProgressBar text="Git" progress="70" />
         <ProgressBar text="GitHub" progress="70" />
         <ProgressBar text="BitBucket" progress="80" />

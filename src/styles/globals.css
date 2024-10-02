@@ -15,3 +15,36 @@ body {
 .overflow-y-auto {
   scrollbar-width: thin;
 }
+
+.swiper {
+  padding: 10px;
+}
+
+.swiper-wrapper {
+  margin-bottom: 24px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 95% !important;
+  color: #c03c37 !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 24px !important;
+}
+
+.swiper-pagination {
+  margin: auto;
+  position: relative !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #c03c37 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  width: 80% !important;
+}

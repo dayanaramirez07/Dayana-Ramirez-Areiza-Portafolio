@@ -18,20 +18,20 @@ const knowledge = [
 
 const education = [
   {
-    title1: "Institución Educativa de María",
-    title2: "Bachiller Técnico en Informática",
-    text1: "Egresada",
-    text2:
-      "El plan de estudios se basó en una concepción integradora y cultural, que me proporcionó una amplia gama de conocimientos y habilidades necesarias en el mundo de la tecnología. A lo largo de mi formación, me enfoqué en diversas áreas de especialidad, incluyendo el diseño de páginas web y el desarrollo de sistemas de información. Aprendí a utilizar el computador y el internet como herramientas fundamentales en la gestión automatizada de la información.",
-    date: "Enero 2017 - Noviembre 2018",
-  },
-  {
     title1: "Universidad de Antioquia",
     title2: "Ingeniería de Sistemas",
     text1: "Estudiante",
     text2:
       "En mi trayectoria como estudiante de Ingeniería de Sistemas, he adquirido sólidos conocimientos en diversos aspectos del campo. Me he especializado en el desarrollo Front-end, así como en la implementación de algoritmos para el procesamiento de grandes volúmenes de datos (Big Data). He trabajado con lenguajes de programación como Java, Python, y tecnologías web como HTML, CSS y JavaScript. También tengo experiencia con frameworks y herramientas como React, Next.js, Spring Boot y bases de datos. Además, he podido explorar temas de seguridad informática en áreas como la protección de datos y la identificación de vulnerabilidades en aplicaciones web. He aplicado mis conocimientos en proyectos educativos y profesionales, donde he puesto en práctica mis habilidades de desarrollo y resolución de problemas.",
     date: "Noviembre 2019 - Actualidad",
+  },
+  {
+    title1: "Institución Educativa de María",
+    title2: "Bachiller Técnico en Informática",
+    text1: "Egresada",
+    text2:
+      "El plan de estudios se basó en una concepción integradora y cultural, que me proporcionó una amplia gama de conocimientos y habilidades necesarias en el mundo de la tecnología. A lo largo de mi formación, me enfoqué en diversas áreas de especialidad, incluyendo el diseño de páginas web y el desarrollo de sistemas de información. Aprendí a utilizar el computador y el internet como herramientas fundamentales en la gestión automatizada de la información.",
+    date: "Enero 2017 - Noviembre 2018",
   },
 ];
 
@@ -44,4 +44,27 @@ const experience = [
   },
 ];
 
-export { knowledge, education, experience };
+const projects = [
+  {
+    title: "ERP",
+    imageUrl: "/image/ERP.png",
+    details: "Sistema de gestión contable para clientes.",
+  },
+  {
+    title: "Decora y Transforma",
+    imageUrl: "/image/Decora.png",
+    details: "Página web solicitada por un tercero para integrarla con el dashboard.",
+  },
+  {
+    title: "Zolutti",
+    imageUrl: "/image/Zolutti.png",
+    details: "Dashboard para gestionar afiliaciones.",
+  },
+  {
+    title: "Paz y Salvo Digital",
+    imageUrl: "/image/PazSalvo.png",
+    details: "Sistema para gestionar paz y salvo en la Arquidiócesis de Medellín.",
+  },
+];
+
+export { knowledge, education, experience, projects };

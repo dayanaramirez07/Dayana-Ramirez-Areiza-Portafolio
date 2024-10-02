@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="flex flex-col items-center mx-auto">
         <div className="flex items-center pb-10 space-x-2">
           <TitleSecondary title="Experiencia laboral"></TitleSecondary>
-          <Icon icon="fluent:briefcase-28-regular" className="text-primary h-10 w-10" />
+          <Icon icon="guidance:office" className="text-primary h-10 w-10" />
         </div>
         <div className="flex items-center justify-center bg-white w-full px-10 py-8">
           <ul className="w-full">
